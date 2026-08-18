@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 3,
+  "payloads": [
+    {
+      "payloadId": "m3q-S948USQS2AZE1",
+      "displayName": "Galaxy S26 Ultra (S948U) | Kernel 6.12.30",
+      "models": ["SM-S948U"],
+      "kernelVersions": ["6.12.30"],
+      "exploit": { "url": "https://raw.githubusercontent.com/slapah/Root-My-Galaxy-Payloads/main/artifacts/m3q-S948USQS2AZE1/cve-2026-43499-app.so", "size": 162280 },
+      "kernelsu": { "url": "https://raw.githubusercontent.com/slapah/Root-My-Galaxy-Payloads/main/kernelsu/ksud-m3q-S948USQS2AZE1-kdp", "size": 4885504 }
+    }
+  ]
+}
