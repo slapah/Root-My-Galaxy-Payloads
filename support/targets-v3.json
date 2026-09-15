@@ -2,12 +2,164 @@
   "schemaVersion": 3,
   "payloads": [
     {
+      "payloadId": "pa3q-S938BXXSBCZG3",
+      "displayName": "Galaxy S25 Ultra SM-S938B | S938BXXSBCZG3",
+      "models": [
+        "SM-S938B"
+      ],
+      "kernelVersions": [
+        "6.6.98"
+      ],
+      "exactMatch": {
+        "manufacturer": "samsung",
+        "model": "SM-S938B",
+        "device": "pa3q",
+        "buildDisplay": "BP4A.251205.006.S938BXXSBCZG3",
+        "buildFingerprint": "samsung/pa3qxxx/pa3q:16/BP4A.251205.006/S938BXXSBCZG3_OXMBCZG3:user/release-keys",
+        "kernelRelease": "6.6.98-android15-8-pd6ff1cd-abogkiS938BXXSBCZG3-4k",
+        "kernelVersionInfo": "#1 SMP PREEMPT Thu Jul  2 00:48:56 UTC 2026",
+        "machine": "aarch64",
+        "sdk": 36,
+        "abi": "arm64-v8a",
+        "pageSize": 4096
+      },
+      "exploit": {
+        "url": "https://raw.githubusercontent.com/slapah/Root-My-Galaxy-Payloads/main/artifacts/pa3q-S938BXXSBCZG3-v0266/cve-2026-43499-app.so",
+        "size": 104128,
+        "sha256": "1719e9362cd19e58521cb785fcaa40c4613ca854d0c3c9fb8320edf8e9046303"
+      },
+      "kernelsu": {
+        "url": "https://raw.githubusercontent.com/slapah/Root-My-Galaxy-Payloads/main/kernelsu/ksud-s25u-kdp-v3.3.0",
+        "size": 5101328,
+        "sha256": "9c07ab0f9922cef5a8ef0c7805967d1019bf9e084553bc994e7a42c9347bdab1"
+      },
+      "rootHelper": {
+        "url": "https://raw.githubusercontent.com/slapah/Root-My-Galaxy-Payloads/main/artifacts/pa3q-S938BXXSBCZG3-v0266/cve-2026-43499-root",
+        "size": 32888,
+        "sha256": "4dd29619caae2b08aa491d7fcfc2e5d0d1ea11d0b6b9d1673d49f7580a40858f"
+      },
+      "routePolicy": {
+        "slideRoute": "default",
+        "attempts": 24,
+        "attemptTimeoutSec": 120,
+        "p0AttemptTimeoutSec": 45,
+        "p0OffsetCache": true,
+        "prefersShellTransport": false
+      }
+    },
+    {
+      "payloadId": "pa3q-S938BXXUCZZI4",
+      "displayName": "Galaxy S25 Ultra SM-S938B | S938BXXUCZZI4",
+      "models": [
+        "SM-S938B"
+      ],
+      "kernelVersions": [
+        "6.6.127"
+      ],
+      "exactMatch": {
+        "manufacturer": "samsung",
+        "model": "SM-S938B",
+        "device": "pa3q",
+        "buildDisplay": "CP2A.260605.016.S938BXXUCZZI4",
+        "buildFingerprint": "samsung/pa3qxxx/pa3q:17/CP2A.260605.016/S938BXXUCZZI4_OXMCZZI4:user/release-keys",
+        "kernelRelease": "6.6.127-android15-8-p33f4ffe-abogkiS938BXXUCZZI4-4k",
+        "kernelVersionInfo": "#1 SMP PREEMPT Wed Sep  2 08:13:43 UTC 2026",
+        "machine": "aarch64",
+        "sdk": 37,
+        "abi": "arm64-v8a",
+        "pageSize": 4096
+      },
+      "exploit": {
+        "url": "https://raw.githubusercontent.com/slapah/Root-My-Galaxy-Payloads/main/artifacts/pa3q-S938BXXUCZZI4-v0300/cve-2026-43499-app.so",
+        "size": 104128,
+        "sha256": "14143d6c5385e4c46bd34dc335772e9d1bcae7f5c102e34a6b142b875395df2b"
+      },
+      "kernelsu": {
+        "url": "https://raw.githubusercontent.com/slapah/Root-My-Galaxy-Payloads/main/kernelsu/ksud-pa3q-S938BXXUCZZI4-kdp-v3.3.0",
+        "size": 6664656,
+        "sha256": "d76b44c984b8d6f7121f712d8aa4e7cf0178ff36a8cd531bddaca9dd2fd361e2"
+      },
+      "rootHelper": {
+        "url": "https://raw.githubusercontent.com/slapah/Root-My-Galaxy-Payloads/main/artifacts/pa3q-S938BXXUCZZI4-v0300/cve-2026-43499-root",
+        "size": 32888,
+        "sha256": "4dd29619caae2b08aa491d7fcfc2e5d0d1ea11d0b6b9d1673d49f7580a40858f"
+      },
+      "routePolicy": {
+        "slideRoute": "auto",
+        "attempts": 24,
+        "attemptTimeoutSec": 120,
+        "p0AttemptTimeoutSec": 45,
+        "p0OffsetCache": true,
+        "prefersShellTransport": true
+      }
+    },
+    {
       "payloadId": "m3q-S948USQS2AZE1",
       "displayName": "Galaxy S26 Ultra (S948U) | Kernel 6.12.30",
-      "models": ["SM-S948U"],
-      "kernelVersions": ["6.12.30"],
-      "exploit": { "url": "https://raw.githubusercontent.com/slapah/Root-My-Galaxy-Payloads/main/artifacts/m3q-S948USQS2AZE1/cve-2026-43499-app.so", "size": 162280 },
-      "kernelsu": { "url": "https://raw.githubusercontent.com/slapah/Root-My-Galaxy-Payloads/main/kernelsu/ksud-m3q-S948USQS2AZE1-kdp", "size": 4885504 }
+      "models": [
+        "SM-S948U"
+      ],
+      "kernelVersions": [
+        "6.12.30"
+      ],
+      "exploit": {
+        "url": "https://raw.githubusercontent.com/slapah/Root-My-Galaxy-Payloads/main/artifacts/m3q-S948USQS2AZE1/cve-2026-43499-app.so",
+        "size": 162280,
+        "sha256": "9a355a1482e0c33790bf61e25de11e41f0b92804adb6c9afd97ee4a9843d6c8b"
+      },
+      "kernelsu": {
+        "url": "https://raw.githubusercontent.com/slapah/Root-My-Galaxy-Payloads/main/kernelsu/ksud-m3q-S948USQS2AZE1-kdp",
+        "size": 4885504,
+        "sha256": "77fe1ded5a5562cf6a57020fbf7375baa3e4734be3e4cf46d2d2b395a6ec4c14"
+      }
+    },
+    {
+      "payloadId": "h8q-F971USQU1AZFW",
+      "displayName": "Galaxy Z Fold 8 SM-F971U | F971USQU1AZFW",
+      "models": [
+        "SM-F971U"
+      ],
+      "kernelVersions": [
+        "6.12.58"
+      ],
+      "exactMatch": {
+        "manufacturer": "samsung",
+        "model": "SM-F971U",
+        "device": "h8q",
+        "buildDisplay": "CP2A.260605.016.F971USQU1AZFW",
+        "buildFingerprint": "samsung/h8qsqw/h8q:17/CP2A.260605.016/F971USQU1AZFW_OYN1AZFW:user/release-keys",
+        "kernelRelease": "6.12.58-android16-6-pab9584b-abogkiF971USQU1AZFW-4k",
+        "kernelVersionInfo": "#1 SMP PREEMPT Wed Jun 24 12:13:25 UTC 2026",
+        "machine": "aarch64",
+        "sdk": 37,
+        "abi": "arm64-v8a",
+        "pageSize": 4096
+      },
+      "exploit": {
+        "url": "https://raw.githubusercontent.com/slapah/Root-My-Galaxy-Payloads/main/artifacts/h8q-F971USQU1AZFW-v0001/cve-2026-43499-app.so",
+        "size": 69712,
+        "sha256": "ccbe73bf4f287289c63960dd79138e3ac4bb527a7c9ceae62adf67098c179254"
+      },
+      "kernelsu": {
+        "url": "https://raw.githubusercontent.com/slapah/Root-My-Galaxy-Payloads/main/kernelsu/ksud-h8q-F971USQU1AZFW-kdp",
+        "size": 6496856,
+        "sha256": "5758b6bb4699e5947bd69f5b621dbd431633def9ea802a3bfcc9ab46d4d76e25",
+        "kmi": "android16-6.12",
+        "managerPackage": "me.weishu.kernelsu"
+      },
+      "rootHelper": {
+        "url": "https://raw.githubusercontent.com/slapah/Root-My-Galaxy-Payloads/main/artifacts/h8q-F971USQU1AZFW-v0001/cve-2026-43499-root",
+        "size": 422448,
+        "sha256": "0b3d842eb4b8faaad0a6d59fe0bcf8e3703246d2a13d180ea31bcea74d0cdb16"
+      },
+      "routePolicy": {
+        "slideRoute": "auto",
+        "attempts": 24,
+        "attemptTimeoutSec": 120,
+        "p0AttemptTimeoutSec": 45,
+        "p0OffsetCache": true,
+        "prefersShellTransport": true
+      }
     }
   ]
 }
