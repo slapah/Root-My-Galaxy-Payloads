@@ -149,8 +149,8 @@
       },
       "rootHelper": {
         "url": "https://raw.githubusercontent.com/slapah/Root-My-Galaxy-Payloads/main/artifacts/h8q-F971USQU1AZFW-v0001/cve-2026-43499-root",
-        "size": 423472,
-        "sha256": "03e5e3fa08b4de96f82ba1dac3442f86e6f72ce09f7c87b5ab8a3cf180df65b6"
+        "size": 423408,
+        "sha256": "e835c034b489a5b4c8e89513f949380a9c2bf57d51f274f35a47f654be2c637e"
       },
       "routePolicy": {
         "slideRoute": "auto",
