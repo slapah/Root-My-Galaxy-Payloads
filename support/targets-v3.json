@@ -137,8 +137,8 @@
       },
       "exploit": {
         "url": "https://raw.githubusercontent.com/slapah/Root-My-Galaxy-Payloads/main/artifacts/h8q-F971USQU1AZFW-v0001/cve-2026-43499-app.so",
-        "size": 70872,
-        "sha256": "80791c57784989e0acf96f79ba0403b57e8f1a5d703690c4c487ce40faf08cc4"
+        "size": 71080,
+        "sha256": "34f77dd41f57c609c86b75752829e96cf886cfdfe5ba7d76277ffe4d8227cb63"
       },
       "kernelsu": {
         "url": "https://raw.githubusercontent.com/slapah/Root-My-Galaxy-Payloads/main/kernelsu/ksud-h8q-F971USQU1AZFW-kdp",
