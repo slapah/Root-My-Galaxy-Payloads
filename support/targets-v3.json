@@ -142,8 +142,8 @@
       },
       "kernelsu": {
         "url": "https://raw.githubusercontent.com/slapah/Root-My-Galaxy-Payloads/main/kernelsu/ksud-h8q-F971USQU1AZFW-kdp",
-        "size": 6496856,
-        "sha256": "5758b6bb4699e5947bd69f5b621dbd431633def9ea802a3bfcc9ab46d4d76e25",
+        "size": 4749880,
+        "sha256": "5e29a22d98dba96dcd6c00787a7cc1da265e1adae849f70dd217c5e77eb625e6",
         "kmi": "android16-6.12",
         "managerPackage": "me.weishu.kernelsu"
       },
