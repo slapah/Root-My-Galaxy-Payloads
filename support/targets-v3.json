@@ -160,6 +160,54 @@
         "p0OffsetCache": true,
         "prefersShellTransport": true
       }
+    },
+    {
+      "payloadId": "h8q-F971USQU3AZI5",
+      "displayName": "Galaxy Z Fold 8 SM-F971U | F971USQU3AZI5",
+      "models": [
+        "SM-F971U"
+      ],
+      "kernelVersions": [
+        "6.12.58"
+      ],
+      "exactMatch": {
+        "manufacturer": "samsung",
+        "model": "SM-F971U",
+        "device": "h8q",
+        "buildDisplay": "CP2A.260605.016.F971USQU3AZI5",
+        "buildFingerprint": "samsung/h8qsqw/h8q:17/CP2A.260605.016/F971USQU3AZI5_OYN3AZI5:user/release-keys",
+        "kernelRelease": "6.12.58-android16-6-p5e742b0-abogkiF971USQU3AZI5-4k",
+        "kernelVersionInfo": "#1 SMP PREEMPT Mon Sep  7 01:54:32 UTC 2026",
+        "machine": "aarch64",
+        "sdk": 37,
+        "abi": "arm64-v8a",
+        "pageSize": 4096
+      },
+      "exploit": {
+        "url": "https://raw.githubusercontent.com/slapah/Root-My-Galaxy-Payloads/main/artifacts/h8q-F971USQU3AZI5-v0001/cve-2026-43499-app.so",
+        "size": 71080,
+        "sha256": "34f77dd41f57c609c86b75752829e96cf886cfdfe5ba7d76277ffe4d8227cb63"
+      },
+      "kernelsu": {
+        "url": "https://raw.githubusercontent.com/slapah/Root-My-Galaxy-Payloads/main/kernelsu/ksud-h8q-F971USQU3AZI5-kdp",
+        "size": 4790320,
+        "sha256": "5e7323c7167b7efe2dc8130329fd506a74154880a02aedde223439e6a3a446ca",
+        "kmi": "android16-6.12",
+        "managerPackage": "me.weishu.kernelsu"
+      },
+      "rootHelper": {
+        "url": "https://raw.githubusercontent.com/slapah/Root-My-Galaxy-Payloads/main/artifacts/h8q-F971USQU3AZI5-v0001/cve-2026-43499-root",
+        "size": 423472,
+        "sha256": "03e5e3fa08b4de96f82ba1dac3442f86e6f72ce09f7c87b5ab8a3cf180df65b6"
+      },
+      "routePolicy": {
+        "slideRoute": "auto",
+        "attempts": 24,
+        "attemptTimeoutSec": 120,
+        "p0AttemptTimeoutSec": 45,
+        "p0OffsetCache": true,
+        "prefersShellTransport": true
+      }
     }
   ]
 }
